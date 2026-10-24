@@ -12,12 +12,12 @@ AutoBoot 自动扫描硬盘上的 Windows 和 ISO、WIM、VHD/VHDX、EFI 文件�
 
 | 文件 | 用途 |
 | --- | --- |
-| `AutoBoot-BCD-release.zip` | 安装到已有 Windows 启动菜单 |
-| `AutoBoot-BIOS-UEFI.iso` | 虚拟机光驱或刻录光盘启动 |
+| `AutoBoot-BCD-<版本号>.zip` | 安装到已有 Windows 启动菜单 |
+| `AutoBoot-BIOS-UEFI-<版本号>.iso` | 虚拟机光驱或刻录光盘启动 |
 
 ## 安装
 
-1. 解压 `AutoBoot-BCD-release.zip`。
+1. 解压 `AutoBoot-BCD-<版本号>.zip`。
 2. 将整个 `AutoBoot` 文件夹复制到电脑**实际启动分区的根目录**。
 3. 在这台电脑已安装的 Windows 中，右键 `AutoBoot\Install-BootMenu.bat`，选择**以管理员身份运行**。
 4. 重启，在 Windows 启动菜单中选择 AutoBoot。
